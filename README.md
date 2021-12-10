@@ -33,4 +33,10 @@ Run on CUB dataset, ResNet-12 backbone, 1-shot, single GPU
 
 ## Note that batch tasks are set to 4/1 when training 1-shot/5-shot tasks.
 
+### Our code is based on [AGAM](https://github.com/bighuang624/AGAM) and [TorchMeta](https://github.com/tristandeleu/pytorch-meta).
+
+## Contacts
+Please feel free to contact us if you have any problems.
+
+Email: [haoxingchen@smail.nju.edu.cn](haoxingchen@smail.nju.edu.cn)
 
