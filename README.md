@@ -24,12 +24,12 @@ You can download datasets automatically by adding `--download` when running the 
 ## Few-shot Classification
 Download data and run on multiple GPUs with special settings:
 
-`python train.py --train-data [train_data] --test-data [test_data] --backbone [backbone] --num-shots [num_shots] --batch-tasks [batch_tasks] --train-tasks [train_tasks] --semantic-type [semantic_type] --multi-gpu --download`
+```python train.py --train-data [train_data] --test-data [test_data] --backbone [backbone] --num-shots [num_shots] --batch-tasks [batch_tasks] --train-tasks [train_tasks] --semantic-type [semantic_type] --multi-gpu --download```
 
 ## Example:  
 Run on CUB dataset, ResNet-12 backbone, 1-shot, single GPU
 
-`python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 4 --train-tasks 60000 --semantic-type class_attributes`
+```python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 4 --train-tasks 60000 --semantic-type class_attributes```
 
 ## Note that batch tasks are set to 4/1 when training 1-shot/5-shot tasks.
 
