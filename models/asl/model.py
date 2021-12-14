@@ -77,7 +77,8 @@ class ASL(nn.Module):
 
         embeddings = self.encoder(inputs.view(-1, *inputs.shape[2:]))
 
-        if Support:    
+        # attention after the last conv
+        if Support:    # attributes-guided
             attr_label = semantics.float().view(-1, semantics.shape[2])
             semantics = semantics.float().view(-1, semantics.shape[2], 1, 1)
             b, n, _, _ = semantics.shape
@@ -90,7 +91,7 @@ class ASL(nn.Module):
 
             return embeddings.view(*inputs.shape[:2], -1), generated_attr.view(b, n), attr_label
 
-        else:    
+        else:    # self-guided
             attr_label = semantics.float().view(-1, semantics.shape[2])
             semantics = semantics.float().view(-1, semantics.shape[2], 1, 1)
             b, n, _, _ = semantics.shape
