@@ -40,7 +40,6 @@ Download data and run on multiple GPUs with special settings:
 python train.py --train-data [train_data] --test-data [test_data] --backbone [backbone] --num-shots [num_shots] --batch-tasks [batch_tasks] --train-tasks [train_tasks] --semantic-type [semantic_type] --multi-gpu --download
 ```
 
-## Example:  
 Run on CUB dataset, ResNet-12 backbone, 1-shot, single GPU
 
 ```
