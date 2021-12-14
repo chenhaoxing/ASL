@@ -1,5 +1,17 @@
 # Shaping Visual Representations with Attributes for Few-Shot Learning
 This code implements the Shaping Visual Representations with Attributes for Few-Shot Learning (ASL).
+
+## :bookmark: Citation
+If you find our work useful, please consider citing our work using the bibtex:
+```
+@Article{chen2021sparse,
+	author  = {Chen, Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin},
+	title   = {Sparse Spatial Transformers for Few-Shot Learning},
+	journal = {arXiv preprint arXiv:2109.12932},
+	year    = {2021},
+}
+```
+
 ## Prerequisites
 * Linux
 * Python 3.7
