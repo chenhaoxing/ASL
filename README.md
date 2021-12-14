@@ -4,7 +4,7 @@ This code implements the Shaping Visual Representations with Attributes for Few-
 ## Citation
 If you find our work useful, please consider citing our work using the bibtex:
 ```
-@Article{chen2021sparse,
+@Article{chen2021asl,
 	author  = {Chen, Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin},
 	title   = {Shaping Visual Representations with Attributes for Few-Shot Learning},
 	journal = {arXiv preprint arXiv:2112.06398},
