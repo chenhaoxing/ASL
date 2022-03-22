@@ -48,7 +48,7 @@ python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots
 
 Note that batch tasks are set to 1. Larger batchsize may damage the learning of the visual-attribute generator.
 
-### Our code is based on [AGAM](https://github.com/bighuang624/AGAM) and [TorchMeta](https://github.com/tristandeleu/pytorch-meta).
+### Our code is based on [TorchMeta](https://github.com/tristandeleu/pytorch-meta).
 
 ## Contacts
 Please feel free to contact us if you have any problems.
