@@ -46,7 +46,7 @@ Run on CUB dataset, ResNet-12 backbone, 1-shot, single GPU
 python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 4 --train-tasks 60000 --semantic-type class_attributes
 ```
 
-Note that batch tasks are set to 4/1 when training 1-shot/5-shot tasks.
+Note that batch tasks are set to 1. Larger batchsize may damage the learning of the visual-attribute generator.
 
 ### Our code is based on [AGAM](https://github.com/bighuang624/AGAM) and [TorchMeta](https://github.com/tristandeleu/pytorch-meta).
 
