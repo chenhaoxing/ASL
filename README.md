@@ -6,7 +6,7 @@ If you find our work useful, please consider citing our work using the bibtex:
 ```
 @Article{chen2022asl,
 	author  = {Chen, Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin},
-	title   = {Shaping Visual Representations with Attributes for Few-Shot Learning},
+	title   = {Shaping Visual Representations with Attributes for Few-Shot Recognition},
 	journal = {IEEE Signal Process. Lett.},
 	year    = {2022}
 }
