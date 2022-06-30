@@ -5,13 +5,14 @@ This code implements the IEEE Signal Process. Lett. paper Shaping Visual Represe
 If you find our work useful, please consider citing our work using the bibtex:
 ```
 @ARTICLE{asl2022spl,  
-    author={Chen, Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin},  
-    journal={IEEE Signal Processing Letters},   
-    title={Shaping Visual Representations With Attributes for Few-Shot Recognition},   
-    year={2022},  
-    volume={29},  
-    pages={1397-1401},  
-    doi={10.1109/LSP.2022.3180934}}
+        author={Chen, Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin},  
+        journal={IEEE Signal Processing Letters},   
+        title={Shaping Visual Representations With Attributes for Few-Shot Recognition},   
+        year={2022},  
+        volume={29},  
+        pages={1397-1401},  
+        doi={10.1109/LSP.2022.3180934}
+}
 ```
 
 ## Prerequisites
